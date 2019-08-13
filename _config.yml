@@ -1,0 +1,16 @@
+title: "Iain Dillingham"
+author: "Iain Dillingham"
+email: "iain@dillingham.me.uk"
+
+github_username: "iaindillingham"
+linkedin_username: "iaindillingham"
+twitter_username: "iaindillingham"
+rss: "rss"
+
+url: "http://dillingham.me.uk"
+timezone: "Europe/London"
+google_analytics: "UA-125458134-1"
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
