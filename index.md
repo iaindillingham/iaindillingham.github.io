@@ -9,6 +9,10 @@ After graduating, I spent a year as a research fellow in GeoInformatics at the [
 I then spent four years with [Verisk Maplecroft][] as a software and data engineer,
 and 2.5 years with [Polecat][] as a data visualisation engineer.
 
+### Here
+
+* [Publications](./publications/)
+
 ### Elsewhere
 
 * [LinkedIn](https://www.linkedin.com/in/iaindillingham)
