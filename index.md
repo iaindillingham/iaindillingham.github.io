@@ -12,6 +12,7 @@ and 2.5 years with [Polecat][] as a data visualisation engineer.
 ### Here
 
 * [Publications](./publications/)
+* [Posts](./posts/)
 
 ### Elsewhere
 
