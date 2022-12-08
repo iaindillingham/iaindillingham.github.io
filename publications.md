@@ -8,6 +8,8 @@ permalink: /publications/
 
 ## Articles
 
+* Morton, C., Devito, N., Morley, J., __Dillingham, I.__, Schultze, A., Bacon, S., Inglesby, P., Maude, S., Goldacre, B. (2022), 'Software development skills for health data researchers', _BMJ Health Care Informatics_ 29. <br />Open access: <https://doi.org/10.1136/bmjhci-2021-100488>
+
 * Stojanovic, T., McNae, H.M., Tett, P., Potts, T.W., Reis J., Smith, H.D., and __Dillingham, I.__ (2016), 'The "social" aspect of social-ecological systems: a critique of analytical frameworks and findings from a multisite study of coastal sustainability', _Ecology and Society_ 21(3). <br />Open access: <http://www.ecologyandsociety.org/vol21/iss3/art15/>
 
 * Goodwin., S., Dykes, J., Jones, S., __Dillingham, I.__, Dove, G., Duffy, A., Kachkaev, A., Slingsby, A., and Wood, J. (2013), 'Creative user-centered visualization design for energy analysts and modellers', _IEEE Transactions on Visualization and Computer Graphics_ 19(12), 2516-2525. <br />Open access: <http://openaccess.city.ac.uk/2618/>
