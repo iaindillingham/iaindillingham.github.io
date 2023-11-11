@@ -1,12 +1,29 @@
-# See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.238.0/containers/jekyll/.devcontainer/base.Dockerfile
+# [Choice] Debian OS version (use 3.2-bookworm, or 3.2-bullseye on local arm64/Apple Silicon): 3.2-bookworm, 3.2-bullseye, 3.2-buster
+ARG VARIANT=3.2-bookworm
+FROM mcr.microsoft.com/devcontainers/ruby:${VARIANT}
 
-# [Choice] Debian OS version (use bullseye on local arm64/Apple Silicon): bullseye, buster
-ARG VARIANT="2.7-bullseye"
-FROM mcr.microsoft.com/vscode/devcontainers/jekyll:0-${VARIANT}
+USER root
 
-# [Choice] Node.js version: none, lts/*, 16, 14, 12, 10
-ARG NODE_VERSION="none"
-RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/local/share/nvm/nvm.sh && nvm install ${NODE_VERSION} 2>&1"; fi
+# ENV Variables required by Jekyll
+ENV LANG=en_US.UTF-8 \
+    LANGUAGE=en_US:en \
+    TZ=Etc/UTC \
+    LC_ALL=en_US.UTF-8 \
+    LANG=en_US.UTF-8 \
+    LANGUAGE=en_US
+
+# Install bundler, latest jekyll, and github-pages for older jekyll
+RUN gem update --system
+
+# https://github.com/ntkme/sass-embedded-host-ruby/issues/130
+RUN gem install sass-embedded -v 1.62.1
+RUN gem install bundler jekyll github-pages
+
+RUN chown -R "vscode:rvm" "/usr/local/rvm/" \
+    && chmod -R g+r+w "/usr/local/rvm/" \
+    && find "/usr/local/rvm/" -type d | xargs -n 1 chmod g+s
+
+COPY post-create.sh /usr/local/post-create.sh
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
