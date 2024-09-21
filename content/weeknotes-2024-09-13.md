@@ -1,6 +1,7 @@
 Title: Weeknotes
 Date: 2024-09-13
 Category: weeknotes
+Slug: weeknotes-2024-09-13
 
 Weeknotes for the week finishing Friday, 13th September 2024.
 
