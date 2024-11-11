@@ -1,0 +1,11 @@
+Title: Weeknotes
+Date: 2024-11-01
+Category: weeknotes
+Slug: weeknotes-2024-11-01
+
+Weeknotes for the week finishing Friday, 1st November 2024.
+
+Annual leave!
+
+We went to on holiday.
+Some walking, some paddleboarding, some running.
