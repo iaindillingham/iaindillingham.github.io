@@ -1,6 +1,6 @@
 Title: Weeknotes
 Date: 2024-10-18
-Category: weeknotes
+Category: Weeknotes
 Slug: weeknotes-2024-10-18
 
 Weeknotes for the week finishing Friday, 18th October 2024.

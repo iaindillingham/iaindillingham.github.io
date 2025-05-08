@@ -1,6 +1,6 @@
 Title: Weeknotes
 Date: 2024-09-20
-Category: weeknotes
+Category: Weeknotes
 Slug: weeknotes-2024-09-20
 
 Weeknotes for the week finishing Friday, 20th September 2024.

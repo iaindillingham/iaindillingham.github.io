@@ -1,6 +1,6 @@
 Title: Weeknotes
 Date: 2024-11-08
-Category: weeknotes
+Category: Weeknotes
 Slug: weeknotes-2024-11-08
 
 Weeknotes for the week finishing Friday, 8th November 2024.
