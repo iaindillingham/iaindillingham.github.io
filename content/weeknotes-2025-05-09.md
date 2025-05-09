@@ -1,0 +1,32 @@
+Title: Weeknotes
+Date: 2025-05-09
+Category: Weeknotes
+Slug: weeknotes-2025-05-09
+
+Weeknotes for the week finishing Friday, 9th May 2025.
+
+After a hiatus, weeknotes are (hopefully) back.
+In the last six months, I've become a dad, taken a month off, and become a tech lead.
+Nevertheless, these are *weeknotes*.
+What happened *this week*?
+
+Several things happened this week,
+but I only have time to write about one:
+I was frustrated by an idea that I keep hearing at work.
+Namely, that you need a copy of production data for local development.
+Or, if you're not using a copy of production data when you're doing local development,
+then you're not doing local development right.
+
+Certainly, it's handy to tinker with a copy of production data;
+you can tailor a user interface to fit a long string
+or to fit domain-specific words and expressions ("jargon").
+Having a copy of production data also makes replicating bugs easier.
+However, production data can be large.
+They can also contain [personal data][1],
+which must be removed before a copy is made.
+And once the personal data are removed,
+the copy is no longer a copy of production data.
+
+Time's up!
+
+[1]: https://en.wikipedia.org/wiki/Personal_data
