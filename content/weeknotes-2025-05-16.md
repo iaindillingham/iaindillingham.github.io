@@ -1,0 +1,20 @@
+Title: Weeknotes
+Date: 2025-05-16
+Category: Weeknotes
+Slug: weeknotes-2025-05-16
+
+Weeknotes for the week finishing Friday, 16th May 2025.
+
+
+Annual leave!
+
+For several reasons I found myself going to bed and waking up early.
+I started reading about [Rust][] (it's a programming language, dad)
+and working through the [Getting Started][] section of [The Book][].
+I was impressed by the quality of the documentation
+and the friendliness of the community.
+I should make time to learn Rust properly.
+
+[Getting Started]: https://doc.rust-lang.org/book/ch01-00-getting-started.html
+[Rust]: https://www.rust-lang.org/
+[The Book]: https://doc.rust-lang.org/book/
