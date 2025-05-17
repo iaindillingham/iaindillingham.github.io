@@ -61,9 +61,9 @@ prodenv: requirements-prod (_install 'prod')
 # Install dev requirements into the virtual environment
 devenv: requirements-dev prodenv (_install 'dev') && install-pre-commit
 
-# Run a command in the virtual environment
+# Serve site at http://127.0.0.1:8000
 run *args: devenv
-    echo "Not implemented"
+    pelican --autoreload --listen {{ args }}
 
 # Run tests
 test *args: devenv
