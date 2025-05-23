@@ -1,0 +1,45 @@
+Title: Weeknotes
+Date: 2025-05-23
+Category: Weeknotes
+Slug: weeknotes-2025-05-23
+
+Weeknotes for the week finishing Friday, 23rd May 2025.
+
+Katie showed me [a code snippet][1] within which I noticed the following idiom:
+
+```py
+del a_list[:]
+```
+
+I was sure that `[:]` copied the list,
+but I wasn't sure what `del` did to it.
+Deleted a copy of the list?
+Deleted the contents of a copy of the list?
+What happened to the list?
+
+After experimenting in the Python shell,
+I realised that `del` and `[:]` deleted the contents of the list.
+In other words, they're equivalent to the following:
+
+```py
+a_list.clear()
+```
+
+I find the use of `del` and `[:]` confusing.
+If you slice a list, then you get a new list.
+But if you delete a slice of a list,
+then you don't:
+the elements contained by the slice are deleted from the list.
+
+When we describe code as "idiomatic",
+we mean "a characteristic mode of expression" (Oxford Languages).
+In this case, however,
+I mean "a group of words established by usage as having a meaning not deducible from those of individual words" (Oxford Languages).
+
+This week,
+I also finished writing a proposal for a feature that will touch several of our systems and processes;
+talked about the future of the OpenPathology project;
+and helped Alice update [the case-control studies documentation][2].
+
+[1]: https://github.com/pytest-dev/pytest-django/blob/5ada9c1596ee9e0624801d553995d98d2e3ccce8/pytest_django/fixtures.py#L583
+[2]: https://docs.opensafely.org/case-control-studies/
