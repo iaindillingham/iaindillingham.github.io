@@ -1,0 +1,23 @@
+Title: Weeknotes
+Date: 2025-06-06
+Category: Weeknotes
+Slug: weeknotes-2025-06-06
+
+Weeknotes for the week finishing Friday, 6th June 2025.
+
+Paternity leave!
+More specifically, *additional* paternity leave!
+
+[The University of Oxford Additional Paternity/Partner Leave][1] scheme means I have 10 additional weeks of paternity leave.
+Needless to say, the scheme is amazing.
+
+[Last week](<{filename}./weeknotes-2025-05-30.md>)
+I started thinking about pair programming as an alternative to pull requests.
+This week I read "[Patterns for Managing Source Code Branches][]" by Martin Fowler.
+I'd like to learn more about continuous delivery
+and "Patterns for Managing Source Code Branches" gave useful and interesting context.
+
+Time's up!
+
+[1]: https://hr.admin.ox.ac.uk/article/new-additional-paternity/partner-leave-launched
+[Patterns for Managing Source Code Branches]: https://martinfowler.com/articles/branching-patterns.html
