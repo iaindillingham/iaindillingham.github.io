@@ -1,6 +1,5 @@
 Title: Less neat, less tidy, and more unpredictable: Improving your code with property-based tests
 Date: 2023-10-18
-Category: Talks
 Tags: property-based-tests, ehrQL
 Slug: 2023/10/18/property-based-tests
 

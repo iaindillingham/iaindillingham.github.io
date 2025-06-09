@@ -1,6 +1,5 @@
 Title: Code Reuse in a Trusted Research Environment
 Date: 2022-11-16
-Category: Talks
 Tags: OpenSAFELY, TRE
 Slug: 2022/11/16/code-reuse-trusted-research-environment
 
