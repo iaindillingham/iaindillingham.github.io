@@ -1,6 +1,5 @@
 Title: The victory of form over content
 Date: 2025-06-06
-Category: Other
 
 You're a junior academic at a British university.
 You know it's important to publish your research in high-impact journals.

@@ -1,6 +1,5 @@
 Title: Reflections on my first six months as a tech lead
 Date: 2025-05-25
-Category: Other
 
 I became a tech lead in December 2024.
 My team is small: just Alice, a junior developer, and me.
