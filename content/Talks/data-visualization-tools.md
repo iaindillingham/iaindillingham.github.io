@@ -1,7 +1,6 @@
 Title: A Constellation of Data Visualization Tools
 Date: 2022-06-23
 Tags: data-visualization, vega, vega-lite, altair
-Slug: 2022/06/23/data-visualization-tools
 
 I gave a short talk today called *A Constellation of Data Visualization Tools: Vega, Vega-Lite, and Altair*.
 

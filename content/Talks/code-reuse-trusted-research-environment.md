@@ -1,7 +1,6 @@
 Title: Code Reuse in a Trusted Research Environment
 Date: 2022-11-16
 Tags: OpenSAFELY, TRE
-Slug: 2022/11/16/code-reuse-trusted-research-environment
 
 I gave a talk today at the [NHS-R][] conference.
 It was called *Code Reuse in a Trusted Research Environment: Reusable Actions in OpenSAFELY*.
