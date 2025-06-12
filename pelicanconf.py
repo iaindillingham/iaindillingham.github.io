@@ -24,3 +24,5 @@ PAGE_URL = "{slug}.html"
 PAGE_SAVE_AS = PAGE_URL
 
 THEME_TEMPLATES_OVERRIDES = ["templates"]
+
+TYPOGRIFY = True
