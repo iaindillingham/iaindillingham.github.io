@@ -20,8 +20,13 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
+ARTICLE_URL = "{date:%Y}/{date:%m}/{date:%d}/{slug}.html"
+ARTICLE_SAVE_AS = ARTICLE_URL
 PAGE_URL = "{slug}.html"
 PAGE_SAVE_AS = PAGE_URL
+
+ARTICLE_TRANSLATION_ID = None
+PAGE_TRANSLATION_ID = None
 
 THEME_TEMPLATES_OVERRIDES = ["templates"]
 
