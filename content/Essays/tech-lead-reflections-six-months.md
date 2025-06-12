@@ -37,7 +37,7 @@ Similarly, managing the latter means clicking "Approve" every so often.
 Hardly onerous!
 
 The leadership activity I've found most rewarding is providing support.
-I was Katie's buddy [from last September](<{filename}/Weeknotes/2024-09-13.md>) to this January
+I was Katie's buddy [from last September]({filename}/Weeknotes/2024-09-13.md) to this January
 and I enjoyed helping her become an effective junior developer.
 Being a buddy and being a tech lead are different;
 I have more direct influence over Alice's career progression than I had over Katie's, for example.
