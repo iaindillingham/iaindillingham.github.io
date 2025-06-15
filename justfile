@@ -65,6 +65,10 @@ devenv: requirements-dev prodenv (_install 'dev') && install-pre-commit
 run *args: devenv
     pelican --autoreload --listen {{ args }}
 
+# Build site
+build *args: devenv
+    {{ BIN_DIR }}/pelican --delete-output-directory --fatal warnings {{ args }}
+
 # Run tests
 test *args: devenv
     {{ BIN_DIR }}/coverage run --module pytest {{ args }}
