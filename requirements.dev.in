@@ -1,3 +1,5 @@
+--constraint requirements.prod.txt
+
 coverage
 pre-commit
 pytest
