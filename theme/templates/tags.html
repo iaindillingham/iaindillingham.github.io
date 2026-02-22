@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Tags - {{ SITENAME|striptags }}{% endblock title %}
+
+{% block content %}
+  <h1 class="list-title">Tags</h1>
+  <ul class="post-list-simple">
+    {% for tag, articles in tags %}
+      <li>
+        <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+        <span class="post-meta">{{ articles|count }} post{% if articles|count != 1 %}s{% endif %}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock content %}

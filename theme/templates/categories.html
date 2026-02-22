@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Categories - {{ SITENAME|striptags }}{% endblock title %}
+
+{% block content %}
+  <h1 class="list-title">Categories</h1>
+  <ul class="post-list-simple">
+    {% for category, articles in categories %}
+      <li>
+        <a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a>
+        <span class="post-meta">{{ articles|count }} post{% if articles|count != 1 %}s{% endif %}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock content %}

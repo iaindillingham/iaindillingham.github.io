@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block body_class %}home{% endblock body_class %}
+
+{% block content %}
+  {% if articles %}
+    <section class="post-list">
+      {% for article in articles %}
+        <article class="post-card">
+          <header class="post-card-header">
+            <h2 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+            <p class="post-meta">
+              <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+              {% if article.category %}
+                <span class="meta-sep">•</span>
+                <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+              {% endif %}
+            </p>
+          </header>
+          <div class="post-summary">
+            {{ article.summary }}
+          </div>
+          <a class="read-more" href="{{ SITEURL }}/{{ article.url }}">Read</a>
+        </article>
+      {% endfor %}
+    </section>
+  {% else %}
+    <p class="empty">No posts yet.</p>
+  {% endif %}
+
+  {% if articles_page and articles_paginator.num_pages > 1 %}
+    <nav class="pager" aria-label="Pagination">
+      {% if articles_page.has_previous() %}
+        <a class="pager-link" href="{{ SITEURL }}/{{ articles_previous_page.url }}">Newer</a>
+      {% endif %}
+      <span class="pager-meta">Page {{ articles_page.number }} of {{ articles_paginator.num_pages }}</span>
+      {% if articles_page.has_next() %}
+        <a class="pager-link" href="{{ SITEURL }}/{{ articles_next_page.url }}">Older</a>
+      {% endif %}
+    </nav>
+  {% endif %}
+{% endblock content %}
