@@ -12,14 +12,13 @@
           <span class="meta-sep">•</span>
           <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
         {% endif %}
-      </p>
-      {% if article.tags %}
-        <ul class="tag-list">
+        {% if article.tags %}
           {% for tag in article.tags %}
-            <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+            <span class="meta-sep">•</span>
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
           {% endfor %}
-        </ul>
-      {% endif %}
+        {% endif %}
+      </p>
     </header>
     <div class="post-content">
       {{ article.content }}
