@@ -25,6 +25,13 @@ Before working in tech,
 I was a research fellow in GeoInformatics at the [University of St Andrews][],
 and did a PhD and MSc in Geographic Information Science at the [giCentre][],
 [City, University of London][].
+My research focused on designing, developing, and evaluating visual, interactive interfaces to data.
+This is known as infovis or geovis inside academia;
+datavis, outside.[^1]
+
+[^1]:
+  Respectively,
+  information visualisation, geographic (information) visualisation, and data visualisation.
 
 [Bennett Institute for Applied Data Science]: https://www.bennett.ox.ac.uk/
 [City, University of London]: https://www.city.ac.uk/
