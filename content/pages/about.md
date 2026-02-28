@@ -23,7 +23,7 @@ During this time, I've been:
 
 Before working in tech,
 I was a research fellow in GeoInformatics at the [University of St Andrews][],
-and did a PhD and MSc in Geographic Information Science at the [giCentre][],
+and completed a PhD and MSc in Geographic Information Science at the [giCentre][],
 [City, University of London][].
 My research focused on designing, developing, and evaluating visual, interactive interfaces to data.
 This is known as infovis or geovis inside academia;
