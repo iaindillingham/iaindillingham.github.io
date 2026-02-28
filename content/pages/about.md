@@ -22,7 +22,7 @@ During this time, I've been:
   where I helped build content management systems with Django and Wagtail.
 
 Before working in tech,
-I was a research fellow in GeoInformatics at the [University of St Andrews][],
+I was a research fellow in GeoInformatics at the [University of St Andrews][]
 and completed a PhD and MSc in Geographic Information Science at the [giCentre][],
 [City St George's, University of London][].
 [My research]({filename}/pages/publications.md) focused on designing, developing, and evaluating visual, interactive interfaces to data.
