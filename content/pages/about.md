@@ -24,7 +24,7 @@ During this time, I've been:
 Before working in tech,
 I was a research fellow in GeoInformatics at the [University of St Andrews][],
 and completed a PhD and MSc in Geographic Information Science at the [giCentre][],
-[City, University of London][].
+[City St George's, University of London][].
 My research focused on designing, developing, and evaluating visual, interactive interfaces to data.
 This is known as infovis or geovis inside academia;
 datavis, outside.[^1]
@@ -34,7 +34,7 @@ datavis, outside.[^1]
   information visualisation, geographic (information) visualisation, and data visualisation.
 
 [Bennett Institute for Applied Data Science]: https://www.bennett.ox.ac.uk/
-[City, University of London]: https://www.city.ac.uk/
+[City St George's, University of London]: https://www.citystgeorges.ac.uk/
 [giCentre]: https://www.gicentre.net/
 [OpenSAFELY]: https://www.opensafely.org/
 [Polecat]: https://www.polecat.com/
