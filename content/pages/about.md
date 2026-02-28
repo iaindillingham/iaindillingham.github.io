@@ -28,6 +28,7 @@ and completed a PhD and MSc in Geographic Information Science at the [giCentre][
 [My research]({filename}/pages/publications.md) focused on designing, developing, and evaluating visual, interactive interfaces to data.
 This is known as [infovis][], [geovis][], or [visual analytics][] inside academia;
 datavis, outside.
+I was -- and still am! -- interested in [quantitative geography][].
 
 [Bennett Institute for Applied Data Science]: https://www.bennett.ox.ac.uk/
 [City St George's, University of London]: https://www.citystgeorges.ac.uk/
@@ -40,4 +41,5 @@ datavis, outside.
 [geovis]: https://en.wikipedia.org/wiki/Geovisualization
 [giCentre]: https://www.gicentre.net/
 [infovis]: https://en.wikipedia.org/wiki/Data_and_information_visualization
+[quantitative geography]: https://en.wikipedia.org/wiki/Quantitative_geography
 [visual analytics]: https://en.wikipedia.org/wiki/Visual_analytics
