@@ -26,7 +26,7 @@ I was a research fellow in GeoInformatics at the [University of St Andrews][],
 and completed a PhD and MSc in Geographic Information Science at the [giCentre][],
 [City St George's, University of London][].
 [My research]({filename}/pages/publications.md) focused on designing, developing, and evaluating visual, interactive interfaces to data.
-This is known as infovis or [geovis][] inside academia;
+This is known as [infovis][] or [geovis][] inside academia;
 datavis, outside.[^1]
 
 [^1]:
@@ -43,3 +43,4 @@ datavis, outside.[^1]
 [Verisk Maplecroft]: https://www.maplecroft.com/
 [geovis]: https://en.wikipedia.org/wiki/Geovisualization
 [giCentre]: https://www.gicentre.net/
+[infovis]: https://en.wikipedia.org/wiki/Data_and_information_visualization
