@@ -10,14 +10,14 @@ and a couple of more exotic languages: [Vega][] and [Vega-Lite][].
 I've worked in tech for over 10 years.
 During this time, I've been:
 
-* a senior software engineer,
+* **a senior software engineer**,
   also at the Bennett Institute for Applied Data Science,
   where I helped build [OpenSAFELY][].
-* a data visualisation engineer at [Polecat][],
+* **a data visualisation engineer** at [Polecat][],
   where I helped develop visual, interactive interfaces to data.
-* a data engineer at [Verisk Maplecroft][],
+* **a data engineer** at [Verisk Maplecroft][],
   where I helped build ETL pipelines with Apache Airflow.
-* a software engineer,
+* **a software engineer**,
   also at Verisk Maplecroft,
   where I helped build content management systems with Django and Wagtail.
 
