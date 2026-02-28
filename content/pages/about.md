@@ -26,7 +26,7 @@ I was a research fellow in GeoInformatics at the [University of St Andrews][],
 and completed a PhD and MSc in Geographic Information Science at the [giCentre][],
 [City St George's, University of London][].
 [My research]({filename}/pages/publications.md) focused on designing, developing, and evaluating visual, interactive interfaces to data.
-This is known as infovis or geovis inside academia;
+This is known as infovis or [geovis][] inside academia;
 datavis, outside.[^1]
 
 [^1]:
@@ -35,10 +35,11 @@ datavis, outside.[^1]
 
 [Bennett Institute for Applied Data Science]: https://www.bennett.ox.ac.uk/
 [City St George's, University of London]: https://www.citystgeorges.ac.uk/
-[giCentre]: https://www.gicentre.net/
 [OpenSAFELY]: https://www.opensafely.org/
 [Polecat]: https://www.polecat.com/
 [University of St Andrews]: https://www.st-andrews.ac.uk/
 [Vega-Lite]: https://vega.github.io/vega-lite/
 [Vega]: https://vega.github.io/vega/
 [Verisk Maplecroft]: https://www.maplecroft.com/
+[geovis]: https://en.wikipedia.org/wiki/Geovisualization
+[giCentre]: https://www.gicentre.net/
