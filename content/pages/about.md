@@ -27,11 +27,7 @@ and completed a PhD and MSc in Geographic Information Science at the [giCentre][
 [City St George's, University of London][].
 [My research]({filename}/pages/publications.md) focused on designing, developing, and evaluating visual, interactive interfaces to data.
 This is known as [infovis][], [geovis][], or [visual analytics][] inside academia;
-datavis, outside.[^1]
-
-[^1]:
-  Respectively,
-  information visualisation, geographic (information) visualisation, and data visualisation.
+datavis, outside.
 
 [Bennett Institute for Applied Data Science]: https://www.bennett.ox.ac.uk/
 [City St George's, University of London]: https://www.citystgeorges.ac.uk/
