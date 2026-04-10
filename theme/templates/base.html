@@ -73,6 +73,18 @@
               </ul>
             </div>
           {% endif %}
+          {% if FEED_ALL_ATOM or FEED_ALL_RSS %}
+            <div class="footer-section">
+              <h2>Feed</h2>
+              <ul>
+                {% if FEED_ALL_ATOM %}
+                  <li><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}">Atom</a></li>
+                {% elif FEED_ALL_RSS %}
+                  <li><a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}">RSS</a></li>
+                {% endif %}
+              </ul>
+            </div>
+          {% endif %}
         </div>
         <p class="footer-meta">© {{ AUTHOR }}</p>
       </div>
