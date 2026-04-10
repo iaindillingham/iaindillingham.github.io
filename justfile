@@ -67,7 +67,7 @@ run *args: devenv
 
 # Build site
 build *args: devenv
-    {{ BIN_DIR }}/pelican --delete-output-directory --fatal warnings {{ args }}
+    PYTHONPATH="." {{ BIN_DIR }}/pelican --delete-output-directory --fatal warnings --settings publishconf.py {{ args }}
 
 # Run tests
 test *args: devenv

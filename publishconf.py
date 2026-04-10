@@ -4,6 +4,8 @@
 import os
 import sys
 
+from pelicanconf import *  # noqa: F403
+
 
 sys.path.append(os.curdir)
 
